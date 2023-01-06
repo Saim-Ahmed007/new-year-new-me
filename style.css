@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-container {
+    background-image: url('./images/banner/banner3.png');
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.banner-body {
+    margin-right: 170px;
+}
+
+.banner-title {
+    font-size: 45px;
+    color: #ffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font: 16px;
+    color: #ffff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-left: 220px;
+}
+
+.banner-btn {
+    height: 56px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(0, 89, 255, 0.998);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    margin: 0px 200px;
+    gap: 80px;
+    margin-bottom: 120px;
+}
+
+.container-body {
+    margin-top: 250px;
+}
+
+.container-title {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.container-description {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.my-plan-container {
+    margin: 0 200px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.my-banner-container {
+    margin: 0px 250px;
+    margin-bottom: 120px;
+}
+
+.my-banner {
+    background-image: url('./images/gradient1.png'), url('./images/watch.png');
+    height: 210px;
+    border-radius: 5px;
+
+}
+
+.banner-btn {
+    margin-left: 32px;
+
+}
+
+.my-btn {
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: rgba(0, 89, 255, 0.998);
+    font-weight: 700;
+
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 80px;
+}
+
+.footer-title {
+    color: #ffff;
+    padding: 80px;
+}
+
+.footer-title p {
+    font-size: 15px;
+}
+
+.footer-input {
+    padding: 80px;
+}
+
+.icon-container {
+    display: flex;
+    margin-top: 25px;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.input {
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    color: #ffff;
+}
+
+.subscribe {
+    background-color: rgb(0, 106, 255);
+    color: #ffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
